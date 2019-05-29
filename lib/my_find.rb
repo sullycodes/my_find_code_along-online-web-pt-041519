@@ -6,6 +6,7 @@ def my_find(collection)
     yield(collection[i])
   i += 1
   end
+  return collection
 end
 
 collection = (1..20).to_a
