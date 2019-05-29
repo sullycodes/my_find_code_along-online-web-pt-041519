@@ -9,4 +9,4 @@ def my_find(collection)
 end
 
 collection = (1..100).to_a
-my_find(collection) { |num| num % 3 == 0 && num % 5 == 0 }
+my_find(collection) { |num| num.odd? }
